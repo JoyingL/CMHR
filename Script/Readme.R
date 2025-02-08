@@ -1,5 +1,4 @@
 
-### 让你托马不写注释 ###
 
 pacman::p_load(data.table, tidyverse, readxl, writexl, magrittr, naniar)
 pacman::p_load(ggthemes, patchwork, paletteer, ggrepel, ggchicklet)
@@ -10,6 +9,7 @@ pacman::p_load(igraph, cluster, spdep, ggraph)
 library(urbnthemes)
 set_urbn_defaults(style = "print")
 urbnthemes::lato_import()
+
 library(extrafont)
 loadfonts(device = "win", quiet = F)
 
@@ -20,25 +20,25 @@ library(boot)
 # SHP ------------------------------------------------------------------
 
 
-# 最原始生成的格网: with 241332 features and 1 field (geometry)
+# raw file with 241332 features and 1 field (geometry)
 read_sf("Data/studyarea/tess_global_valid_WGS84.gpkg")
 
 
-# 处理筛选后的格网：with 184013 features and 28 fields
+# processed file with 184013 features and 28 fields
 tess_valid_rm <- read_rds("Data/graph/tess_valid_rm.rds")
 
 
-## 空间邻接矩阵
+## spatial adjacency matrix
 # nb_q_rm <- poly2nb(tess_valid_rm, queen = TRUE)
 nb_q_rm <- read_rds("Data/graph/nb_q_rm.rds")
 
 
-## 空间权重矩阵
+## spatial weight matrix
 # lw <- nb2listw(nb_q_rm, style = "W")
 lw <- read_rds("Data/graph/lw.rds")
 
 
-# 合并所有属性的格网：with 183563 features and 26 fields
+## with 183563 features and 26 fields
 mytess <- read_rds("Data/final/MHS_final_tess_shp.rds")
 
 
@@ -90,9 +90,6 @@ mypairs <- read_rds("Data/sim/my_pairs_all.rds")
 # 按行归一化后的pairs绘图加分析用: 16,129 × 7 + 3 = 10
 mypairs_plot <- read_rds("Data/sim/my_pairs_all_rescale.rds") 
 mypairs_res <- read_rds("Data/sim/my_pairs_all_rescale.rds") 
-
-
-
 
 
 
