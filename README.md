@@ -72,4 +72,4 @@ If you use this code in your research, please cite our paper:
 
 For questions about the code or paper, please:
 - Open an issue on GitHub
-- Contact: [Joying Lee](mailto:joyinghua@gami1.com)
+- Contact: [Joying Lee](mailto:joyinghua@gmail.com)
