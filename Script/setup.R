@@ -1,6 +1,8 @@
 
 
-
+# setup.R
+# Install and load required packages for coastal risk analysis
+# List of required packages
 
 pacman::p_load(data.table, tidyverse, readxl, writexl, magrittr, naniar)
 pacman::p_load(ggthemes, patchwork, paletteer, ggrepel, ggchicklet)
@@ -83,8 +85,6 @@ range(myexp$exp) # 已归一化
 mycountry <- read_rds("Data/studyarea/mycountry.rds") # 127
 
 
-
-
 # 最初的R-V-A合并处理好连接GNS属性数据集: 16,129 × 7
 mypairs <- read_rds("Data/sim/my_pairs_all.rds")
 
@@ -92,8 +92,6 @@ mypairs <- read_rds("Data/sim/my_pairs_all.rds")
 # 按行归一化后的pairs绘图加分析用: 16,129 × 7 + 3 = 10
 mypairs_plot <- read_rds("Data/sim/my_pairs_all_rescale.rds") 
 mypairs_res <- read_rds("Data/sim/my_pairs_all_rescale.rds") 
-
-
 
 
 
