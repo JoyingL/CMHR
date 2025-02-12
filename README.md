@@ -9,7 +9,7 @@ This repository contains the R code implementation for the paper **"A new map of
 2. Risk Pattern Identification: Detection of continuous risk communities across 126 coastal countries and characterization of general risk patterns
 3. Collaboration Network Analysis: Evaluation of international partnerships from an integrated perspective of risk similarity, geopolitical stance, and academic collaboration metrics
 
-**_For the global risk community map and the full lists of country partnerships, please visit our <span style="color: #4A90E2">[interactive web application](https://qbxm4q-lee-joying.shinyapps.io/shiny/)</span>_**
+**_For the global risk community map and the full lists of country partnerships, please visit our <span style="color: #4A90E2">[interactive web](https://joyingl.github.io/cmhr/)</span>_**
 
 ## Data Availability
 
