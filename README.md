@@ -3,7 +3,7 @@
 ![R](https://img.shields.io/badge/R-%3E%3D4.0.0-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-This repository contains the R code implementation for the paper **"Understanding international cooperation potential in coastal multi-hazard governance"**. The code framework consists of three main components:
+This repository contains the R code implementation for the paper **"Understanding international cooperation potential in coastal multi-hazard governance through risk similarity"**. The code framework consists of three main components:
 
 1. Multi-hazard Risk Assessment: High-resolution, comprehensive risk modeling for global coastal regions, incorporating earthquakes, landslides, flooding, and cyclones/typhoons
 2. Risk Pattern Identification: Detection of continuous risk communities across 126 coastal countries and characterization of general risk patterns
