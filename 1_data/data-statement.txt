@@ -1,0 +1,25 @@
+All datasets in this research are publicly available.
+
+An online interactive map of the full results can be found at https://joyingl.github.io/cmhr/. 
+
+The analyses in this paper are based on publicly available datasets.
+
+Coastline data from the GSHHG are available online (http://www.soest.hawaii.edu/pwessel/gshhg/); 
+ISC is available online (https://www.isc.ac.uk/); landslide data from COOLR are available online (https://maps.nccs.nasa.gov/); 
+flooding data from the DFO database are available online (https://floodobservatory.colorado.edu/); 
+cyclone and typhoon tracking data from IBTrACS are available online (https://www.ncdc.noaa.gov/ibtracs/); 
+HydroSHEDS is available online (https://www.hydrosheds.org/); 
+OpenLandMap is available online (https://openlandmap.org/); 
+NASA MODIS data are available online (https://modis.gsfc.nasa.gov/data/); 
+the ERA5 dataset is available online (https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5); 
+EM-DAT data are available online (https://www.emdat.be/); 
+SHDI data are available online (https://hdi.globaldatalab.org/); 
+population distribution data from WorldPop are available online (https://www.worldpop.org/); 
+ODIAC data are available online (http://db.cger.nies.go.jp/dataset/ODIAC/); 
+CMEMS is available online (https://marine.copernicus.eu/); 
+protected area data from the WDPA are available online (https://www.protectedplanet.net/); 
+GFPLAIN data are available online (https://doi.org/10.6084/m9.figshare.6665165.v1); 
+urban microwave backscatter time-series data are available online (https://doi.org/10.1038/s41597-022-01193-w); 
+GRIP data is available online (https://www.globio.info/download-grip-dataset); 
+UNGA voting data are available online(https://digitallibrary.un.org/record/4060887). 
+Our dataset for bibliometric analysis was obtained from the Web of Science Core Collection (WoS).
