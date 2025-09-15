@@ -1,11 +1,11 @@
-# Global Partnerships for Coastal Multi-Hazard Risks
+# Global Partnerships for Coastal Multiple Hazard Risks
 
 ![R](https://img.shields.io/badge/R-%3E%3D4.0.0-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-This repository contains the R code implementation for the paper **"Understanding international cooperation potential in coastal multi-hazard governance through risk similarity"**. The code framework consists of three main components:
+This repository contains the R code implementation for the paper **"Understanding international cooperation potential in coastal multiple hazards governance through risk similarity"**. The code framework consists of three main components:
 
-1. Multi-hazard Risk Assessment: High-resolution, comprehensive risk modeling for global coastal regions, incorporating earthquakes, landslides, flooding, and cyclones/typhoons
+1. Risk Assessment: High-resolution, comprehensive risk modeling for global coastal regions, incorporating earthquakes, landslides, flooding, and cyclones/typhoons
 2. Risk Pattern Identification: Detection of continuous risk communities across 126 coastal countries and characterization of general risk patterns
 3. Collaboration Network Analysis: Evaluation of international partnerships from an integrated perspective of risk similarity, geopolitical stance, and academic collaboration metrics
 
